@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Connect Facebook</h1>
+<p>Sign in directly on Facebook in a dedicated Chrome window on this computer. Your password is not collected by this app.</p>
+{% if connection %}
+<section class="card" id="facebook-session">
+<h2>Session: <span id="connection-state">{{ connection.state }}</span></h2>
+<p id="connection-message">{{ connection.message }}</p>
+<p>Click Connect Facebook, complete sign-in in Chrome, then return here and click Use this session. Chrome will close and save the session for subsequent Facebook links.</p>
+{% for action,label in [('connect','Connect Facebook'),('finish','Use this session'),('cancel','Cancel sign-in'),('disconnect','Disconnect & clear session')] %}
+<form method="post" action="/connections/{{ action }}"><input type="hidden" name="csrf" value="{{ csrf }}"><button data-connection-action="{{ action }}">{{ label }}</button></form>
+{% endfor %}
+<p>Session cookies stay in an application-owned Chrome profile in your local app data folder, outside this project and its Excel exports. Anyone using your Windows account may be able to use the session. Disconnect clears this profile.</p>
+<p>Sign-in may help, but does not guarantee extraction. Verification, permission denials and unavailable posts still stop retrieval. Complete verification yourself in Facebook.</p>
+</section>
+{% if failed %}<section class="card"><h2>Test one failed link</h2><p>After saving your session, retry one link and check its result in Processing history.</p>
+<form method="post" action="/retry"><input type="hidden" name="csrf" value="{{ csrf }}"><label>Failed Facebook link <select name="item_id" required>{% for row in failed %}<option value="{{ row.id }}">#{{ row.id }} — {{ row.original_url }}</option>{% endfor %}</select></label><button>Retry selected link</button></form></section>{% endif %}
+<script defer src="{{ url_for('static',filename='connections.js') }}"></script>
+{% else %}<p>Facebook sign-in requires SCRAPER_BACKEND=selenium. Restart the app after changing this setting.</p>{% endif %}
+{% endblock %}

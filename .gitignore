@@ -1,0 +1,33 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Runtime data, documents, exports and backups
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+output/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.zip
+*.log
+# Python and tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+node_modules/
+# Private source inputs and screenshots
+*.ipynb
+*.lnk
+docs/live-smoke.json
+docs/*.png
+notebook_cell_*.txt

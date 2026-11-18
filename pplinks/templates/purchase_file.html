@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% block content %}
+<h1>Purchase master</h1>
+<section class="card"><p>This one workbook updates after each processing job. New links are appended; existing links are updated in place.</p>
+<p><strong>File:</strong> {{ purchase.path }}</p>
+{% if purchase.error %}<p role="alert">{{ purchase.error }}</p>{% endif %}
+{% if purchase.updated_at %}<p>Last updated: {{ purchase.updated_at }}</p>{% endif %}
+<form method="post"><input type="hidden" name="csrf" value="{{ csrf }}"><button>Update master file</button></form>
+<p><a href="/purchase-master.xlsx">Download purchase master</a></p>
+<p>For one shared working file, open the file at the path above. Downloads and emailed copies do not update automatically.</p>
+<p>The purchase team can add notes or tracking columns from column N onward, and create their own sheets. These are preserved. The app updates columns A–M and its existing support sheets. Close Excel during an update; if it is locked, close it and click Update master file.</p>
+</section>{% endblock %}

@@ -1,0 +1,947 @@
+{
+  "fallback": "Uncategorized",
+  "matching_notes": {
+    "priority": "Evaluate rules from top to bottom; specific product rules should run before generic/reference rules.",
+    "normalization": "Convert extracted title/description/hashtags to lowercase before matching.",
+    "recommended_match": "Prefer phrase match; classify when at least one strong product-specific keyword matches. Avoid using generic commercial words such as price, buy, offer, home, business, shop as standalone category triggers."
+  },
+  "rules": [
+    {
+      "category": "Building Materials",
+      "subcategory": "Gate / Automatic Gate",
+      "keywords": [
+        "automatic gate",
+        "automatic gates",
+        "sliding gate",
+        "swing gate",
+        "cantilever gate",
+        "trackless gate",
+        "motorized gate",
+        "motorised gate",
+        "gate automation",
+        "gate installation",
+        "igate",
+        "ഗേറ്റ്"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Gate Accessories / Operator Components",
+      "keywords": [
+        "gate accessories",
+        "gate accessory",
+        "gate motor",
+        "gate operator",
+        "gate opener",
+        "sliding gate motor",
+        "swing gate motor",
+        "remote gate",
+        "gate controller",
+        "gate sensor",
+        "gate automation kit"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Fence / Perimeter Barrier",
+      "keywords": [
+        "fence",
+        "fencing",
+        "perimeter fence",
+        "boundary fence",
+        "security fence",
+        "metal fence",
+        "steel fence",
+        "compound fence",
+        "boundary wall",
+        "perimeter barrier",
+        "മതിൽ"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Precast Wall / Fencing System",
+      "keywords": [
+        "precast wall",
+        "precast concrete wall",
+        "precast fence",
+        "precast fencing",
+        "concrete slab wall",
+        "precast slab",
+        "compound wall",
+        "boundary wall",
+        "concrete fence",
+        "പ്രീകാസ്റ്റ് മതിൽ",
+        "കോൺക്രീറ്റ് സ്ലാബ്",
+        "മതിൽ"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Gate / Fence / Security Product",
+      "keywords": [
+        "security gate",
+        "security fence",
+        "gate system",
+        "fence system",
+        "perimeter security",
+        "entrance gate",
+        "barrier gate"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Door / Door System",
+      "keywords": [
+        "door system",
+        "aluminium door",
+        "aluminum door",
+        "sliding door",
+        "folding door",
+        "automatic door",
+        "glass door",
+        "security door",
+        "door frame",
+        "door hardware",
+        "വാതിൽ"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Window / Window System",
+      "keywords": [
+        "window system",
+        "aluminium window",
+        "aluminum window",
+        "sliding window",
+        "casement window",
+        "upvc window",
+        "uPVC",
+        "window frame",
+        "mosquito screen window",
+        "polycarbonate window",
+        "windows",
+        "ജനൽ"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Mesh / Insect Screen",
+      "keywords": [
+        "insect screen",
+        "mosquito screen",
+        "mesh door",
+        "mesh window",
+        "insect mesh",
+        "mosquito mesh",
+        "ss mesh",
+        "stainless steel mesh",
+        "fly screen"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Canopy / Roofing Structure",
+      "keywords": [
+        "canopy",
+        "roofing structure",
+        "roof canopy",
+        "carport roof",
+        "polycarbonate roof",
+        "tensile canopy",
+        "metal canopy",
+        "shade structure",
+        "roofing system",
+        "sunshade"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Car Porch / Car Shed",
+      "keywords": [
+        "car porch",
+        "car shed",
+        "carport",
+        "car parking shed",
+        "parking shed",
+        "vehicle shade",
+        "car shade",
+        "car canopy"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Awning",
+      "keywords": [
+        "awning",
+        "retractable awning",
+        "motorized awning",
+        "motorised awning",
+        "window awning",
+        "patio awning",
+        "sun awning",
+        "outdoor awning"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Pergola",
+      "keywords": [
+        "pergola",
+        "aluminum pergola",
+        "aluminium pergola",
+        "motorized pergola",
+        "motorised pergola",
+        "louvered pergola",
+        "gazebo",
+        "outdoor pergola"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Retractable Tent / Sports Cover",
+      "keywords": [
+        "retractable tent",
+        "motorized retractable tent",
+        "motorised retractable tent",
+        "sports cover",
+        "tennis court cover",
+        "retractable sports roof",
+        "court enclosure",
+        "sports canopy"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Outdoor Structure / Canopy / Enclosure",
+      "keywords": [
+        "outdoor enclosure",
+        "outdoor structure",
+        "sunroom",
+        "movable sunroom",
+        "retractable enclosure",
+        "pool enclosure",
+        "garden enclosure",
+        "outdoor shading",
+        "patio enclosure"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Waterproofing Material / Additive",
+      "keywords": [
+        "waterproofing",
+        "waterproof concrete",
+        "waterproof additive",
+        "waterproofing chemical",
+        "waterproof coating",
+        "waterproof membrane",
+        "waterproof cement",
+        "waterproofing compound",
+        "waterproof paint",
+        "damp proof",
+        "ardex",
+        "wpm"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Concrete / Cementitious Material",
+      "keywords": [
+        "concrete",
+        "cementitious",
+        "cement additive",
+        "concrete additive",
+        "cement mix",
+        "ready mix",
+        "mortar",
+        "grout",
+        "microcement",
+        "cement product",
+        "construction chemical"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Plastering Material / System",
+      "keywords": [
+        "plaster",
+        "plastering",
+        "wall plaster",
+        "plaster machine",
+        "auto plaster machine",
+        "plaster spray",
+        "putty sprayer",
+        "wall putty",
+        "cement plaster",
+        "plastering system"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Block / Brick / Paver",
+      "keywords": [
+        "concrete block",
+        "cement block",
+        "brick",
+        "bricks",
+        "paver",
+        "paving block",
+        "interlock block",
+        "interlocking paver",
+        "hollow block",
+        "aac block",
+        "masonry block"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Structural Steel / Fabricated Steel Product",
+      "keywords": [
+        "structural steel",
+        "steel fabrication",
+        "fabricated steel",
+        "steel frame",
+        "steel structure",
+        "metal fabrication",
+        "steel section",
+        "welding fabrication",
+        "steel product",
+        "steel building"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Glass / Glazing System",
+      "keywords": [
+        "glass system",
+        "glazing",
+        "architectural glass",
+        "glass facade",
+        "glass partition",
+        "tempered glass",
+        "toughened glass",
+        "laminated glass",
+        "curtain wall",
+        "glass wall",
+        "glazing system"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Privacy / Smart Glass Film",
+      "keywords": [
+        "smart film",
+        "privacy film",
+        "smart glass",
+        "pdlc film",
+        "switchable glass",
+        "switchable film",
+        "smart tint",
+        "window film",
+        "glass film",
+        "privacy glass"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Masking / Protective Film",
+      "keywords": [
+        "masking film",
+        "protective film",
+        "surface protection film",
+        "furniture protection film",
+        "paint protection film",
+        "washi masking film",
+        "surface protection",
+        "wood protection film"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Interior / Finishing Material",
+      "keywords": [
+        "wall panel",
+        "acoustic panel",
+        "ceiling panel",
+        "decorative panel",
+        "cladding",
+        "wall cladding",
+        "ceiling material",
+        "acoustic material",
+        "interior finishing",
+        "finishing material",
+        "wall board",
+        "sandwich panel"
+      ]
+    },
+    {
+      "category": "Building Materials",
+      "subcategory": "Construction / Building Material",
+      "keywords": [
+        "building material",
+        "construction material",
+        "construction product",
+        "building product",
+        "civil material",
+        "construction supplies",
+        "architectural material",
+        "building supplies"
+      ]
+    },
+    {
+      "category": "Interior Materials & Furniture",
+      "subcategory": "Interior / Décor Product",
+      "keywords": [
+        "interior decor",
+        "home decor",
+        "decor product",
+        "decorative product",
+        "furniture",
+        "interior furniture",
+        "modular furniture",
+        "kitchen cabinet",
+        "cabinet",
+        "wardrobe",
+        "interior design product",
+        "home decoration"
+      ]
+    },
+    {
+      "category": "Electrical Materials",
+      "subcategory": "Lighting Fixture / LED Light",
+      "keywords": [
+        "led light",
+        "led lighting",
+        "lighting fixture",
+        "light fixture",
+        "sensor light",
+        "cabinet light",
+        "architectural light",
+        "led profile",
+        "led strip",
+        "ceiling light",
+        "wall light",
+        "lamp",
+        "lighting"
+      ]
+    },
+    {
+      "category": "Electrical Materials",
+      "subcategory": "Solar Power / Battery System",
+      "keywords": [
+        "solar power",
+        "solar panel",
+        "solar system",
+        "hybrid solar",
+        "solar power plant",
+        "solar inverter",
+        "inverter",
+        "lithium battery",
+        "solar battery",
+        "battery storage",
+        "energy storage",
+        "photovoltaic",
+        "pv system"
+      ]
+    },
+    {
+      "category": "ELV / Digital Systems",
+      "subcategory": "LED Display / Digital Signage",
+      "keywords": [
+        "led display",
+        "led screen",
+        "digital signage",
+        "digital display",
+        "led signage",
+        "led wall",
+        "video wall",
+        "indoor led display",
+        "outdoor led display",
+        "rental led screen",
+        "advertising display",
+        "digital signboard",
+        "led billboard"
+      ]
+    },
+    {
+      "category": "ELV / Digital Systems",
+      "subcategory": "LED Display / Signage",
+      "keywords": [
+        "led sign",
+        "led signage",
+        "signboard",
+        "digital sign",
+        "light box",
+        "lightbox sign",
+        "neon sign",
+        "display sign",
+        "billboard",
+        "signage"
+      ]
+    },
+    {
+      "category": "ELV & Security Systems",
+      "subcategory": "CCTV / Access Control System",
+      "keywords": [
+        "cctv",
+        "security camera",
+        "surveillance camera",
+        "access control",
+        "access control system",
+        "biometric access",
+        "door access",
+        "ptz camera",
+        "ip camera",
+        "nvr",
+        "dvr",
+        "security system"
+      ]
+    },
+    {
+      "category": "IT / Technology Equipment",
+      "subcategory": "Technology Product / System",
+      "keywords": [
+        "technology product",
+        "technology system",
+        "smart device",
+        "smart system",
+        "software",
+        "scanner app",
+        "mobile scanner",
+        "automation system",
+        "ai device",
+        "artificial intelligence",
+        "chatgpt",
+        "automation",
+        "smart technology"
+      ]
+    },
+    {
+      "category": "Office & IT Equipment",
+      "subcategory": "Label Printer / Label Maker",
+      "keywords": [
+        "label printer",
+        "label maker",
+        "thermal label printer",
+        "portable label printer",
+        "barcode printer",
+        "shipping label printer",
+        "phomemo",
+        "label printing"
+      ]
+    },
+    {
+      "category": "Plumbing & Water Materials",
+      "subcategory": "Rainwater Harvesting System",
+      "keywords": [
+        "rainwater harvesting",
+        "rain water harvesting",
+        "rainwater collection",
+        "rain water conservation",
+        "rainwater system",
+        "rain pond",
+        "rainpond",
+        "water harvesting",
+        "മഴവെള്ള"
+      ]
+    },
+    {
+      "category": "Plumbing & Water Materials",
+      "subcategory": "Plumbing / Drainage Item",
+      "keywords": [
+        "plumbing",
+        "drainage",
+        "drainage pump",
+        "sewage pump",
+        "dewatering pump",
+        "wastewater pump",
+        "drain",
+        "drainage channel",
+        "drainage ditch",
+        "water heater",
+        "plumbing item"
+      ]
+    },
+    {
+      "category": "Plumbing & Water Materials",
+      "subcategory": "Water Filter / Treatment System",
+      "keywords": [
+        "water filter",
+        "water filtration",
+        "water treatment",
+        "water purifier",
+        "water purification",
+        "filtration system",
+        "wastewater treatment",
+        "water treatment equipment",
+        "mineral water filter",
+        "ജലമിത്ര"
+      ]
+    },
+    {
+      "category": "Plumbing & Water Materials",
+      "subcategory": "Pipe / Piping Product",
+      "keywords": [
+        "pipe",
+        "pipes",
+        "piping",
+        "pressure pipe",
+        "water pipe",
+        "garden hose",
+        "hose pipe",
+        "hdpe pipe",
+        "pvc pipe",
+        "upvc pipe",
+        "cpvc pipe",
+        "pipe manufacturing"
+      ]
+    },
+    {
+      "category": "Plumbing / Control Systems",
+      "subcategory": "Water Level Controller / Sensor",
+      "keywords": [
+        "water level controller",
+        "water level sensor",
+        "tank level controller",
+        "automatic water level",
+        "water tank controller",
+        "level switch",
+        "float controller",
+        "pump controller"
+      ]
+    },
+    {
+      "category": "HVAC & Refrigeration",
+      "subcategory": "Refrigeration Equipment",
+      "keywords": [
+        "refrigeration",
+        "refrigeration equipment",
+        "freezer",
+        "industrial freezer",
+        "refrigerator",
+        "chiller",
+        "cooling equipment",
+        "cold storage refrigeration"
+      ]
+    },
+    {
+      "category": "HVAC & Refrigeration",
+      "subcategory": "Cold Room / Cold Storage System",
+      "keywords": [
+        "cold room",
+        "coldroom",
+        "cold storage",
+        "coldstore",
+        "walk in freezer",
+        "walk-in freezer",
+        "walk in chiller",
+        "cold room panel",
+        "freezing room",
+        "cold storage system"
+      ]
+    },
+    {
+      "category": "HVAC & Refrigeration",
+      "subcategory": "Air Conditioning Equipment",
+      "keywords": [
+        "air conditioning",
+        "air conditioner",
+        "ac unit",
+        "hvac",
+        "split ac",
+        "ducted ac",
+        "vrf",
+        "vrv",
+        "air cooling",
+        "cooling system"
+      ]
+    },
+    {
+      "category": "HVAC & Refrigeration",
+      "subcategory": "Cooling Tower / Spare Parts",
+      "keywords": [
+        "cooling tower",
+        "cooling tower spare",
+        "cooling tower parts",
+        "cooling tower fill",
+        "cooling tower fan",
+        "cooling tower nozzle",
+        "cooling tower motor"
+      ]
+    },
+    {
+      "category": "Machinery & Equipment",
+      "subcategory": "Laser Cleaning / Rust Removal Machine",
+      "keywords": [
+        "laser cleaning",
+        "laser cleaner",
+        "laser cleaning machine",
+        "laser rust removal",
+        "rust removal machine",
+        "rust cleaning",
+        "metal cleaning laser",
+        "laser rust cleaner"
+      ]
+    },
+    {
+      "category": "Machinery & Equipment",
+      "subcategory": "Industrial Machine / Equipment",
+      "keywords": [
+        "industrial machine",
+        "industrial machinery",
+        "factory machine",
+        "production machine",
+        "manufacturing machine",
+        "industrial equipment",
+        "processing machine",
+        "machine equipment",
+        "factory equipment"
+      ]
+    },
+    {
+      "category": "Machinery & Equipment",
+      "subcategory": "Industrial Machinery / Manufacturing Item",
+      "keywords": [
+        "manufacturing machinery",
+        "manufacturing equipment",
+        "production equipment",
+        "factory machinery",
+        "machine component",
+        "industrial component",
+        "manufacturing line",
+        "production line",
+        "fabrication machine",
+        "processing equipment"
+      ]
+    },
+    {
+      "category": "Tools & Hardware",
+      "subcategory": "Tool / Tool Accessory",
+      "keywords": [
+        "power tool",
+        "power tools",
+        "hand tool",
+        "hand tools",
+        "tool accessory",
+        "drill",
+        "grinder",
+        "cutter",
+        "saw",
+        "profiler",
+        "sprayer",
+        "tool attachment",
+        "workshop tool"
+      ]
+    },
+    {
+      "category": "Tools & Hardware",
+      "subcategory": "Tool / Hardware Item",
+      "keywords": [
+        "hardware tool",
+        "hardware item",
+        "tools wholesale",
+        "hardware",
+        "fastener",
+        "clamp",
+        "hinge",
+        "bracket",
+        "workshop hardware",
+        "tool item"
+      ]
+    },
+    {
+      "category": "Agricultural / Food Processing",
+      "subcategory": "Agricultural / Food Processing Item",
+      "keywords": [
+        "agriculture",
+        "agricultural",
+        "farm product",
+        "food processing",
+        "food product",
+        "agro processing",
+        "agriculture processing",
+        "farming",
+        "farm equipment",
+        "food production"
+      ]
+    },
+    {
+      "category": "Agricultural Equipment",
+      "subcategory": "Agricultural Machinery",
+      "keywords": [
+        "agricultural machinery",
+        "farm machinery",
+        "farm machine",
+        "agriculture machine",
+        "harvester",
+        "cultivator",
+        "tiller",
+        "farm equipment",
+        "agricultural equipment"
+      ]
+    },
+    {
+      "category": "Food Processing Equipment",
+      "subcategory": "Food Processing Machinery",
+      "keywords": [
+        "food processing machine",
+        "food processing machinery",
+        "food machine",
+        "food production machine",
+        "packing machine",
+        "food equipment",
+        "processing machinery",
+        "commercial food machine"
+      ]
+    },
+    {
+      "category": "Automotive Equipment & Supplies",
+      "subcategory": "Automotive Item",
+      "keywords": [
+        "automotive",
+        "vehicle accessory",
+        "car accessory",
+        "truck accessory",
+        "automotive product",
+        "vehicle product",
+        "garage equipment",
+        "auto parts",
+        "car parts",
+        "truck parts"
+      ]
+    },
+    {
+      "category": "Automotive Equipment & Supplies",
+      "subcategory": "Car Wash / Automotive Service Equipment",
+      "keywords": [
+        "car wash machine",
+        "car wash equipment",
+        "automatic car wash",
+        "vehicle wash",
+        "pressure washer car",
+        "car cleaning equipment",
+        "automotive service equipment"
+      ]
+    },
+    {
+      "category": "Parking & Traffic Systems",
+      "subcategory": "Mechanical Parking System",
+      "keywords": [
+        "mechanical parking",
+        "parking system",
+        "automated parking",
+        "automatic parking",
+        "stack parking",
+        "car parking system",
+        "parking lift",
+        "car stacker",
+        "multi level parking",
+        "multilevel parking"
+      ]
+    },
+    {
+      "category": "Health & Wellness",
+      "subcategory": "Health / Fitness Item",
+      "keywords": [
+        "fitness equipment",
+        "gym equipment",
+        "exercise equipment",
+        "workout equipment",
+        "fitness product",
+        "health product",
+        "yoga equipment",
+        "gym machine"
+      ]
+    },
+    {
+      "category": "Facility Services & Consumables",
+      "subcategory": "Pest Control Product / Service",
+      "keywords": [
+        "pest control",
+        "insect repellent",
+        "cockroach control",
+        "termite control",
+        "mosquito control",
+        "pest repellent",
+        "insect control",
+        "rodent control",
+        "pest service"
+      ]
+    },
+    {
+      "category": "Business / Commercial Reference",
+      "subcategory": "Sourcing / Trade Content",
+      "keywords": [
+        "sourcing",
+        "procurement",
+        "wholesale",
+        "supplier",
+        "manufacturer sourcing",
+        "china sourcing",
+        "yiwu",
+        "import",
+        "export",
+        "global trade",
+        "international trade",
+        "bulk purchase",
+        "b2b trade"
+      ]
+    },
+    {
+      "category": "Business / Commercial Reference",
+      "subcategory": "E-commerce / Retail Content",
+      "keywords": [
+        "e-commerce",
+        "ecommerce",
+        "online store",
+        "online shop",
+        "retail business",
+        "online selling",
+        "marketplace seller",
+        "dropshipping",
+        "shopify"
+      ]
+    },
+    {
+      "category": "Business / Commercial Reference",
+      "subcategory": "Business / Commercial Content",
+      "keywords": [
+        "tax consultancy",
+        "business consultancy",
+        "commercial service",
+        "business service",
+        "finance",
+        "legal service",
+        "tax service",
+        "business reference",
+        "commercial reference"
+      ]
+    },
+    {
+      "category": "Non-Procurement Reference",
+      "subcategory": "Non-Procurement Content",
+      "keywords": [
+        "comedy",
+        "entertainment",
+        "lifestyle vlog",
+        "travel vlog",
+        "viral video",
+        "personal vlog",
+        "news content",
+        "motivation",
+        "general information"
+      ]
+    },
+    {
+      "category": "Other / Miscellaneous",
+      "subcategory": "Miscellaneous Item / Content",
+      "keywords": [
+        "miscellaneous",
+        "general content",
+        "other item",
+        "uncategorized content"
+      ]
+    }
+  ]
+}

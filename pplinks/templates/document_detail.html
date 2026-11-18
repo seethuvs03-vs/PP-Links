@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% block content %}
+<div class="heading"><div><p class="eyebrow">{{ doc.kind }} · DOCUMENT #{{ doc.id }}</p><h1 class="detail-title">{{ doc.filename }}</h1><p>{{ '%.1f'|format(doc.size/1024) }} KB · Uploaded {{ doc.created_at[:10] }}</p></div><a href="/documents">Back to Documents</a></div>
+<section class="card">
+{% if doc.kind=='Image' %}
+<a href="{{ url_for('documents.preview',document_id=doc.id) }}" target="_blank" rel="noopener"><img class="document-large-image" src="{{ url_for('documents.preview',document_id=doc.id) }}" alt="{{ doc.filename }}"></a>
+<p>Click the image to open its original size in a new tab and zoom in.</p>
+{% else %}<p>This {{ doc.kind }} file is available to download and open in its application.</p>{% endif %}
+<a class="button" href="{{ url_for('documents.download',document_id=doc.id) }}">Download original file</a>
+</section>
+<section class="card"><h2>Chat details</h2>{% for ref in references %}<article class="message"><strong>{{ ref.sender or 'Sender not supplied' }}</strong><small>{{ ref.timestamp_raw or 'Time not supplied' }} · {{ ref.chat_filename }} · {{ ref.filename }}</small><p class="preserve">{{ ref.message }}</p></article>{% else %}<p>No WhatsApp message is attached to this file.</p>{% endfor %}</section>
+{% endblock %}
